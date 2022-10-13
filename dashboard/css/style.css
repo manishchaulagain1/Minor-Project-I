@@ -1,0 +1,38 @@
+form {
+    display: inline;
+}
+ul li a {
+    color: #fafafa;
+    border-radius: 4px;
+    text-decoration: none;
+    line-height: 26px;
+    margin: 2px 0;
+}
+ul li a:hover {
+    background-color: #EBECEC;
+    color: #333333;
+}
+ul li a.active {
+    background-color: #EBECEC;
+    color: #333333;
+    font-weight: bold;
+}
+ul li a.active:hover {
+    background-color: #EBECEC;
+    color: #333333;
+    font-weight: bold;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+.size-adjust {
+    margin-top: 56px;
+}
+#sidebarMenu {
+    height: calc(100vh - 56px);
+    position: fixed;
+    background-color: #343A40;
+    border-top: 1px solid grey;
+}
+        
